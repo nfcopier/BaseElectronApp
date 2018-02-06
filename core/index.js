@@ -8,6 +8,7 @@ module.exports = {init:function (libraries) {
     );
 
     return marionetteApp.init(
+        RootLayout,
         libraries.marionette.Application
     );
 
